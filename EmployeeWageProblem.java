@@ -1,4 +1,4 @@
-public class EmployeeWageProgram
+public class EmployeeWageProblem
 {
 	public static void main ( String args[] )
 	{
