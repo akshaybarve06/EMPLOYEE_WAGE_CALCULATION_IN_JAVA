@@ -1,12 +1,24 @@
+// Description : Employee Wage Problem
+// Author : Akshay Dhananjay Barve
+// Version : 18.04.3 lts
+// Since 19th March 2020 / Thursday
+
 public class EmployeeWageProblem
 {
 	public static void main ( String args[] )
 	{
 		int checkNumber=(int)(Math.floor(Math.random()*10)%2);
-		int IS_PRESENT=1;
+		int salary=0, IS_PRESENT=1,WAGE_PER_HOUR=20,FULL_DAY_HOUR=8;
 		if ( checkNumber == IS_PRESENT )
-			System.out.println("Employee Is Present..!");
+		{
+         System.out.println("Employee Is Present..!");
+			salary=(WAGE_PER_HOUR*FULL_DAY_HOUR);
+			System.out.println("Employee Salary = "+salary);
+		}
 		else
+		{
 			System.out.println("Employee Is Absent..!");
+	      System.out.println("Employee Salary = "+salary);
+		}
 	}
 }
