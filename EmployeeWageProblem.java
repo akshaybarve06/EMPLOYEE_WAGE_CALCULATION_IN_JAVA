@@ -5,9 +5,9 @@
 
 public class EmployeeWageProblem
 {
-	public static void main ( String args[] )
-   {
-      final int IS_FULLTIME=1, IS_PARTTIME=2, NOOFDAYS=20; WAGE_PER_HOUR=20;
+      public static void main ( String args[] )
+      {
+      final int IS_FULLTIME=1, IS_PARTTIME=2, NOOFDAYS=20, WAGE_PER_HOUR=20;
       int totalSalary=0
       for ( int i=0; i<NOOFDAYS; i++ )
       {
